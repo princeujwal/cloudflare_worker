@@ -1,4 +1,4 @@
-# Cloudflare Worker Tool
+# Nepali Date Converter Worker
 
 A lightweight serverless tool hosted on Cloudflare Workers.
 
