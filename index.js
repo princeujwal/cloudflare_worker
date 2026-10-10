@@ -27,8 +27,8 @@ function getDaysInBSMonth(year, monthName) {
 
 const nepaliYearRef = 1970;
 const englishRefDate = new Date(Date.UTC(1913, 3, 13, 0, 0, 0, 0));
-const ALLOWED_DOMAINS = ["https://ujwalamsal.com.np", "https://www.ujwalamsal.com.np"];
-const REDIRECT_TARGET = "https://www.ujwalamsal.com.np/p/nepali-english-date-converter.html";
+const ALLOWED_DOMAINS = ["https://yourdomian.com"];
+const REDIRECT_TARGET = "https://yourdomain.com";
 
 export default {
   async fetch(request, env, ctx) {
