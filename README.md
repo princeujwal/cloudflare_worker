@@ -1,5 +1,9 @@
 # Nepali Date Converter Worker
 
+[![Launch Tool](https://img.shields.io/badge/Launch-Live%20Web%20Tool-brightgreen?style=for-the-badge)](https://www.ujwalamsal.com.np/nepali-english-date-converter)
+
+> **Live Tool:** Visit [www.ujwalamsal.com.np/nepali-english-date-converter](https://www.ujwalamsal.com.np/nepali-english-date-converter) to use the web application.
+
 A lightweight serverless tool hosted on Cloudflare Workers.
 
 ---
