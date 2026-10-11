@@ -6,6 +6,12 @@ A centralized repository containing lightweight serverless backend APIs hosted o
 
 ---
 
+## 🛠️ Live Applications
+
+> 🚀 **Explore All Tools:** You can access and test all live web applications powered by these Cloudflare Worker scripts on the Developer Hub at **[github.ujwalamsal.com.np](https://github.ujwalamsal.com.np)**.
+
+---
+
 ## 📂 Repository Structure
 
 Each backend worker script resides in its own dedicated subfolder:
@@ -18,15 +24,6 @@ Each backend worker script resides in its own dedicated subfolder:
 │   └── index.js             # Real-time stock prices & index updates
 └── README.md                # Main repository documentation & setup guide
 ```
-
----
-
-## 🛠️ Active Workers & Live Tools
-
-| Worker Folder | Description | Live Frontend App |
-| :--- | :--- | :--- |
-| **`nepali-date-converter/`** | REST API for converting dates between BS and AD. | [Launch Converter](https://github.ujwalamsal.com.np/nepali-english-date-converter) |
-| **`nepse-worker/`** | Fetches real-time NEPSE stock prices, index updates, and company data. | [Launch NEPSE Tool](https://github.ujwalamsal.com.np/nepse) |
 
 ---
 
