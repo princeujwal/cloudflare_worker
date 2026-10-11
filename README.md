@@ -12,7 +12,7 @@ Each backend worker resides in its own dedicated subfolder:
 
 ```text
 📂 cloudflare-workers/
-├── 📂 nepali-date-converter/ | [Launch Tool](https://www.ujwalamsal.com.np/unit-converter) |
+├── 📂 nepali-date-converter/ [Launch Tool](https://www.ujwalamsal.com.np/unit-converter)
 │   └── index.js             # BS to AD / AD to BS conversion logic
 ├── 📂 nepse-worker/
 │   └── index.js             # Real-time stock prices & index updates
