@@ -25,8 +25,8 @@ Each backend worker script resides in its own dedicated subfolder:
 
 | Worker Folder | Description | Live Frontend App |
 | :--- | :--- | :--- |
-| **`nepali-date-converter/`** | REST API for converting dates between BS and AD. | [Launch Converter](https://www.ujwalamsal.com.np/nepali-english-date-converter) |
-| **`nepse-worker/`** | Fetches real-time NEPSE stock prices, index updates, and company data. | [Launch NEPSE Tool](https://www.ujwalamsal.com.np/) |
+| **`nepali-date-converter/`** | REST API for converting dates between BS and AD. | [Launch Converter](https://github.ujwalamsal.com.np/nepali-english-date-converter) |
+| **`nepse-worker/`** | Fetches real-time NEPSE stock prices, index updates, and company data. | [Launch NEPSE Tool](https://github.ujwalamsal.com.np/nepse) |
 
 ---
 
