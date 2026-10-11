@@ -7,9 +7,8 @@ A centralized repository containing lightweight serverless backend APIs hosted o
 ---
 
 ## 🛠️ Live Applications
-[![Live Web Tools](https://img.shields.io/badge/Live%20Web%20Tools-brightgreen?style=for-the-badge)](https://github.ujwalamsal.com.np)
 
-> 🚀 **Explore All Tools:** You can access and test all live web applications powered by these Cloudflare Worker scripts on the Developer Hub at **[github.ujwalamsal.com.np](https://github.ujwalamsal.com.np)**.
+> 🚀 **Explore All Tools:** You can access and test all live web applications powered by these Cloudflare Worker scripts on the Developer Hub at [![Live Web Tools](https://img.shields.io/badge/Live%20Web%20Tools-brightgreen?style=for-the-badge)](https://github.ujwalamsal.com.np)
 
 ---
 
