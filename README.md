@@ -10,7 +10,7 @@ A centralized repository containing lightweight serverless backend APIs hosted o
 
 [![Live Web Tools](https://img.shields.io/badge/Live%20Web%20Tools-brightgreen?style=for-the-badge)](https://github.ujwalamsal.com.np)
 
-> 🚀 **Explore All Tools:** You can access and test all live web applications powered by these Cloudflare Worker scripts on the Developer Hub at [github.ujwalamsal.com.np](https://github.ujwalamsal.com.np).
+> 🚀 **Explore All Tools:** You can access and test all live web applications powered by these Cloudflare Worker scripts on the Developer Hub at [Live Web Tools](https://github.ujwalamsal.com.np).
 
 ---
 
@@ -24,7 +24,7 @@ Each backend worker script resides in its own dedicated subfolder:
 │   └── index.js             # BS to AD / AD to BS conversion logic
 ├── 📂 nepse/
 │   └── index.js             # Real-time stock prices & index updates
-├── 📂 nepalweather/
+├── 📂 weather/
 │   └── index.js             # Real-time DHM Nepal weather & forecast API
 └── README.md                # Main repository documentation & setup guide
 ```
@@ -53,7 +53,7 @@ You can easily deploy your own instance of any worker script in this repository 
 3. **Paste the Code**
    * On the worker overview page, click **Edit code** (or **Quick Edit**).
    * Delete any default placeholder code inside the Cloudflare editor.
-   * Open the desired worker script from this repository (for example, [`/nepalidateconverter/index.js`](./nepalidateconverter/index.js), [`/nepse/index.js`](./nepse/index.js), or [`/nepalweather/index.js`](./nepalweather/index.js)), copy all the code, and paste it into the Cloudflare editor.
+   * Open the desired worker script from this repository (for example, [`/nepalidateconverter/index.js`](./nepalidateconverter/index.js), [`/nepse/index.js`](./nepse/index.js), or [`/weather/index.js`](./weather/index.js)), copy all the code, and paste it into the Cloudflare editor.
 
 4. **Save and Deploy**
    * Click **Save and Deploy** in the top right corner.
