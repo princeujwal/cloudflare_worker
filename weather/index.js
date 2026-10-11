@@ -1,10 +1,5 @@
 export default {
   async fetch(request, env, ctx) {
-    const acceptHeader = request.headers.get("Accept") || "";
-    const fetchMode = request.headers.get("Sec-Fetch-Mode");
-    const isDirectBrowserVisit = request.method === "GET" && 
-      (fetchMode === "navigate" || acceptHeader.includes("text/html"));
-
     const DHM_OBSERVATION_URL = "https://dhm.gov.np/mfd/api/manual-observation";
     const DHM_SUN_URL = "https://dhm.gov.np/mfd/api/sunrise-sunset";
     const DHM_FORECAST_URL = "https://dhm.gov.np/mfd/api/weather";
@@ -133,8 +128,6 @@ export default {
         status: 200,
         headers: {
           ...corsHeaders,
-          // s-maxage=1800 caches at Cloudflare edge for 30 minutes
-          // max-age=60 tells client browsers to recheck after 1 minute
           "Cache-Control": `public, max-age=60, s-maxage=${CACHE_TTL_SECONDS}, must-revalidate`
         }
       });
