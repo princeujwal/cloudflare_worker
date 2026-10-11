@@ -23,6 +23,8 @@ Each backend worker script resides in its own dedicated subfolder:
 │   └── index.js             # BS to AD / AD to BS conversion logic
 ├── 📂 nepse/
 │   └── index.js             # Real-time stock prices & index updates
+├── 📂 nepalweather/
+│   └── index.js             # Real-time DHM Nepal weather & forecast API
 └── README.md                # Main repository documentation & setup guide
 ```
 
