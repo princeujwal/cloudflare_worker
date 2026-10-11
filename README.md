@@ -1,16 +1,15 @@
 # Cloudflare Workers Collection
 
-<a href="https://github.ujwalamsal.com.np" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Developer-Hub-blue?style=for-the-badge" alt="Developer Hub"></a>
+[![Developer Hub](https://img.shields.io/badge/Developer-Hub-blue?style=for-the-badge)](https://github.ujwalamsal.com.np)
 
-A centralized repository containing lightweight serverless backend APIs hosted on Cloudflare Workers. These scripts power live tools and web services across <a href="https://www.ujwalamsal.com.np/" target="_blank" rel="noopener noreferrer">ujwalamsal.com.np</a>.
+A centralized repository containing lightweight serverless backend APIs hosted on Cloudflare Workers. These scripts power live tools and web services across [ujwalamsal.com.np](https://www.ujwalamsal.com.np/).
 
 ---
 
 ## 🛠️ Live Applications
+[![Live Web Tools](https://img.shields.io/badge/Live%20Web%20Tools-brightgreen?style=for-the-badge)](https://github.ujwalamsal.com.np)
 
-<a href="https://github.ujwalamsal.com.np" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Live%20Web%20Tools-brightgreen?style=for-the-badge" alt="Live Web Tools"></a>
-
-> 🚀 **Explore All Tools:** You can access and test all live web applications powered by these Cloudflare Worker scripts on the Developer Hub at <a href="https://github.ujwalamsal.com.np" target="_blank" rel="noopener noreferrer">github.ujwalamsal.com.np</a>.
+> 🚀 **Explore All Tools:** You can access and test all live web applications powered by these Cloudflare Worker scripts on the Developer Hub at [Live Web Tools](https://github.ujwalamsal.com.np).
 
 ---
 
@@ -21,10 +20,10 @@ Each backend worker script resides in its own dedicated subfolder:
 ```text
 📂 cloudflare-workers/
 ├── 📂 nepalidateconverter/
-│   └── index.js             # BS to AD / AD to BS conversion logic
+│   └── index.js             # BS to AD / AD to BS conversion logic
 ├── 📂 nepse/
-│   └── index.js             # Real-time stock prices & index updates
-└── README.md                # Main repository documentation & setup guide
+│   └── index.js             # Real-time stock prices & index updates
+└── README.md                # Main repository documentation & setup guide
 ```
 
 ---
@@ -34,28 +33,28 @@ Each backend worker script resides in its own dedicated subfolder:
 You can easily deploy your own instance of any worker script in this repository to your Cloudflare account without using CLI tools or terminal commands.
 
 ### Prerequisites
-- A free <a href="https://dash.cloudflare.com/sign-up" target="_blank" rel="noopener noreferrer">Cloudflare Account</a>.
+- A free [Cloudflare Account](https://dash.cloudflare.com/sign-up).
 
 ---
 
 ### Installation Steps
 
 1. **Log in to Cloudflare**
-   * Go to the <a href="https://dash.cloudflare.com/" target="_blank" rel="noopener noreferrer">Cloudflare Dashboard</a> and navigate to **Workers & Pages**.
+   * Go to the [Cloudflare Dashboard](https://dash.cloudflare.com/) and navigate to **Workers & Pages**.
 
 2. **Create a New Worker**
-   * Click the **Create Application** button.
-   * Select **Create Worker**.
-   * Give your worker a custom name (e.g., `my-custom-tool`) and click **Deploy**.
+   * Click the **Create Application** button.
+   * Select **Create Worker**.
+   * Give your worker a custom name (e.g., `my-custom-tool`) and click **Deploy**.
 
 3. **Paste the Code**
-   * On the worker overview page, click **Edit code** (or **Quick Edit**).
-   * Delete any default placeholder code inside the Cloudflare editor.
-   * Open the desired worker script from this repository (for example, [`/nepalidateconverter/index.js`](./nepalidateconverter/index.js) or [`/nepse/index.js`](./nepse/index.js)), copy all the code, and paste it into the Cloudflare editor.
+   * On the worker overview page, click **Edit code** (or **Quick Edit**).
+   * Delete any default placeholder code inside the Cloudflare editor.
+   * Open the desired worker script from this repository (for example, [`/nepalidateconverter/index.js`](./nepalidateconverter/index.js) or [`/nepse/index.js`](./nepse/index.js)), copy all the code, and paste it into the Cloudflare editor.
 
 4. **Save and Deploy**
-   * Click **Save and Deploy** in the top right corner.
-   * Your tool is now live at your worker's `.workers.dev` URL!
+   * Click **Save and Deploy** in the top right corner.
+   * Your tool is now live at your worker's `.workers.dev` URL!
 
 ---
 
