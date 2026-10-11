@@ -26,6 +26,8 @@ Each backend worker script resides in its own dedicated subfolder:
 │   └── index.js             # Real-time stock prices & index updates
 ├── 📂 weather/
 │   └── index.js             # Real-time DHM Nepal weather & forecast API
+├── 📂 river watch/
+│   └── index.js             # Real-time river water levels & flood watch API
 └── README.md                # Main repository documentation & setup guide
 ```
 
