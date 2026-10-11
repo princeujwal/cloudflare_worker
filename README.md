@@ -18,9 +18,9 @@ Each backend worker script resides in its own dedicated subfolder:
 
 ```text
 📂 cloudflare-workers/
-├── 📂 nepali-date-converter/
+├── 📂 nepalidateconverter/
 │   └── index.js             # BS to AD / AD to BS conversion logic
-├── 📂 nepse-worker/
+├── 📂 nepse/
 │   └── index.js             # Real-time stock prices & index updates
 └── README.md                # Main repository documentation & setup guide
 ```
