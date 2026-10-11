@@ -7,6 +7,7 @@ A centralized repository containing lightweight serverless backend APIs hosted o
 ---
 
 ## 🛠️ Live Applications
+[![Live Web Tools](https://img.shields.io/badge/Live%20Web%20Tools-brightgreen?style=for-the-badge)](https://github.ujwalamsal.com.np)
 
 > 🚀 **Explore All Tools:** You can access and test all live web applications powered by these Cloudflare Worker scripts on the Developer Hub at **[github.ujwalamsal.com.np](https://github.ujwalamsal.com.np)**.
 
@@ -49,7 +50,7 @@ You can easily deploy your own instance of any worker script in this repository 
 3. **Paste the Code**
    * On the worker overview page, click **Edit code** (or **Quick Edit**).
    * Delete any default placeholder code inside the Cloudflare editor.
-   * Open the desired worker script from this repository (for example, [`/nepali-date-converter/index.js`](./nepali-date-converter/index.js) or [`/nepse-worker/index.js`](./nepse-worker/index.js)), copy all the code, and paste it into the Cloudflare editor.
+   * Open the desired worker script from this repository (for example, [`/nepalidateconverter/index.js`](./nepalidateconverter/index.js) or [`/nepse/index.js`](./nepse/index.js)), copy all the code, and paste it into the Cloudflare editor.
 
 4. **Save and Deploy**
    * Click **Save and Deploy** in the top right corner.
